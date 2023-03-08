@@ -8,8 +8,8 @@ const students = [
     { id: 120, name: 'Francesca da Polenta', grades: 84 }
   ];
   
-  // 1. Stampa il nome degli studenti in maiuscolo
-  const uppercaseNames = students.map(student => {
+  //1.Stampa il nome degli studenti in maiuscolo
+  let uppercaseNames = students.map(student => {
     return {
       id: student.id,
       name: student.name.toUpperCase(),
@@ -18,5 +18,11 @@ const students = [
   });
   console.log(uppercaseNames);
   
-
+  //2.Ragazzi con più di 70
+  let highGrades = students.filter(student => student.grades > 70);
+  console.log(highGrades);
+  
+  //3.Ragazzi con più di 70 e ID di 120
+  let highGradesAndId = students.filter(student => student.grades > 70 && student.id > 120);
+  console.log(highGradesAndId);
   
