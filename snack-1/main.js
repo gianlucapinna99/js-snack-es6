@@ -12,6 +12,7 @@ const guests = [
   "Maneskin"
 ];
 
+//Creo i segnaposto per gli invitati
 const seatCards = guests.map((guest, index) => {
   return {
     table: table,
@@ -20,4 +21,5 @@ const seatCards = guests.map((guest, index) => {
   };
 });
 
+//Stampo a console gli invitati
 console.log(seatCards);
