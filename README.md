@@ -7,3 +7,8 @@ Stampo tutto a console
 
 SNACK 2
 
+Creo un array contenente tutti i dati
+Con il metodo map creo un altro array dove metto i dati di ogni persona in base al posto dell'array e in più cambio il nome in uppercase con .toUpperCase
+Stampo a console il risultato
+Creo un altra costante per gli studenti con più di 70 con il metodo filter e stampo a console
+Creo un altra costante per quelli con più di 70 e id maggiore di 120 col metodo filter e stampo a console
