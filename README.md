@@ -22,3 +22,8 @@ Una volta che il ciclo avrà cambiato il valore controllando ogni elemento dell'
 
 
 SNACK 4
+
+Creo array con tutte le squadre, punti e falli. 
+Creo una funzione che assegni numeri casuali ai punti e falli, ciclando dando ad ognuno punti casuali.
+Creo un altro array con solo nomi e falli. 
+Stampo tutto nella console.
