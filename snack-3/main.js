@@ -14,3 +14,6 @@ const lightestBike = bikes.reduce((acc, bike) => {
       return acc;
     }
   });
+
+const { nome, peso } = lightestBike;
+console.log(`La bici più leggera è ${nome} con un peso di ${peso} kg.`);
